@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recuperar contraseña</title>
+    <link href="styles/style_recupera_contraseña.css"rel="stylesheet"type="text/css">
+    <link rel="icon" href="imagenes/logo_cafe (1).ico">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="cont_izquierdo">
+        </div>
+        <div id="main_cont">
+            <div class="formulario">
+                <img src="imagenes/logo_cafe.jpg" class="logotipo">
+                <h1>Recuperar contraseña</h1>
+                <form method="post">
+                    <div class="Instrucciones">
+                        <p>Ingresa el <b>correo electronico</b>, <b>numero telefonico</b>, <b>apellido paterno</b>, <b>apellido materno</b> y <b>nombre</b>
+                        con el que te registraste, se te enviará un mensaje con tu contraseña </p>
+                    </div>
+                    <div class="correo">
+                        <label>Correo electronico</label>
+                        <input type="email" placeholder="Introduce tu correo electronico" 
+                        value="" required class="inpcorr">
+                    </div>
+                    <div class="telefono">
+                        <label>Numero telefonico</label>
+                        <input type="tel" pattern="[0-9]{10,10}"  placeholder="Introduce tu número teléfonico"   
+                        value="" required class="inptel">
+                    </div>
+                    <div class="Apaterno">
+                        <label>Apellido paterno</label>
+                        <input type="text" placeholder="Introduce tu apellido paterno"   
+                        value="" required class="inpapat">
+                    </div>
+                    <div class="Amaterno">
+                        <label>Apellido materno</label>
+                        <input type="text" placeholder="Introduce tu apellido materno"   
+                        value="" required class="inpamat">
+                    </div>
+                    <div class="Nombre">
+                        <label>Nombre(s)</label>
+                        <input type="text" placeholder="Introduce tu(s) nombre(s)"   
+                        value="" required class="inpnom">
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" value="Enviar" class="Boton">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

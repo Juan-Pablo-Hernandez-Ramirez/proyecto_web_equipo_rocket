@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear cuenta</title>
+    <link href="styles/style_pagina_de_registro.css"rel="stylesheet"type="text/css">
+    <link rel="icon" href="imagenes/logo_cafe (1).ico">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="cont_izquierdo">
+        </div>
+        <div id="main_cont">
+            <div class="formulario">
+                <img src="imagenes/logo_cafe.jpg" class="logotipo">
+                <h1>
+                    Crear cuenta
+                </h1>
+                <form method="post">
+                    <div class="correo">
+                        <label>Correo electronico</label>
+                        <input type="email" placeholder="Introduce tu correo electronico" 
+                        value="" required class="inpcorr">
+                    </div>
+                    <div class="correo">
+                        <label>Confirma tu correo electronico</label>
+                        <input type="email" placeholder="Vuelve a introducir tu correo electronico"   
+                        value="" required class="conficorr">
+                    </div>
+                    <div class="telefono">
+                        <label>Numero telefonico</label>
+                        <input type="tel"  pattern="[0-9]{10,10}" placeholder="Introduce tu número teléfonico"   
+                        value="" required class="inptel">
+                    </div>
+                    <div class="contraseña">
+                        <label>Crea una contraseña</label>
+                        <input type="password" placeholder="Crea una contraseña"  
+                        value="" size="10" maxlength="10" minlength="10" required class="inpcont">
+                    </div>
+                    <div class="contraseña">
+                        <label>Confirma tu contraseña</label>
+                        <input type="password" placeholder="Vuelve a introducir tu contraseña"  
+                        value="" required class="conficont">
+                    </div>
+                    <div class="Apaterno">
+                        <label>Apellido paterno</label>
+                        <input type="text" placeholder="Introduce tu apellido paterno"   
+                        value="" required class="inpapat">
+                    </div>
+                    <div class="Amaterno">
+                        <label>Apellido materno</label>
+                        <input type="text" placeholder="Introduce tu apellido materno"   
+                        value="" required class="inpamat">
+                    </div>
+                    <div class="Nombre">
+                        <label>Nombre(s)</label>
+                        <input type="text" placeholder="Introduce tu(s) nombre(s)"   
+                        value="" required class="inpnom">
+                    </div>
+                    <div class="Nacimiento">
+                        <label>Fecha de nacimiento</label>
+                        <input type="date" value="" min="10" max="100" required class="inpdate">
+                    </div>
+                    <!--<select class="pais">
+
+                    </select>-->
+                        <select class="estados" value="">
+                            <option>Selecciona un estado y municipio</option>
+                            <!--Aguascalientes y municipios-->
+                            <a href="Enlaces/menu-main.html"><option>  Aguascalientes-Aguascalientes</option></a> 
+                            <option>Aguascalientes-Asientos</option>
+                            <option>Aguascalientes-Calvillo</option>
+                            <option>Aguascalientes-Cosío</option>
+                            <option>Aguascalientes-Jesús María</option>
+                            <option>Aguascalientes-Pabellón de Arteaga</option>
+                            <option>Aguascalientes-Rincón de Romos</option>
+                            <option>Aguascalientes-San José de Gracia</option>
+                            <option>Aguascalientes-Tepezalá</option>
+                            <option>Aguascalientes-San Francisco de los Romo</option>
+                            <option>Aguascalientes-El Llano</option>
+                            <!--Baja California y municipios-->
+                            <option>Baja California-Ensenada</option>
+                            <option>Baja California-Mexicali</option>
+                            <option>Baja California-Tecate</option>
+                            <option>Baja California-Tijuana</option>
+                            <option>Baja California-Playas de Rosarito</option>
+                            <option>Baja California-San Quintín</option>
+                            <option>Baja California-San Felipe</option>
+                            <!--Baja California Sur y municipios-->
+                            <option>Baja California Sur-Comondú</option>
+                            <option>Baja California Sur-Mulegé</option>
+                            <option>Baja California Sur-La Paz</option>
+                            <option>Baja California Sur-Los Cabos</option>
+                            <option>Baja California Sur-Loreto</option>
+                            <!--Campeche y municipios-->
+                            <option>Campeche-Campeche</option>
+                            <option>Campeche-Carmen</option>
+                            <option>Campeche-Champotón</option>
+                            <option>Campeche-Escárcega</option>
+                            <option>Campeche-Calkiní</option>
+                            <option>Campeche-Candelaria</option>
+                            <option>Campeche-Hopelchén</option>
+                            <option>Campeche-Hecelchakán</option>
+                            <option>Campeche-Calakmul</option>
+                            <option>Campeche-Dzitbalché</option>
+                            <option>Campeche-Seybaplaya</option>
+                            <option>Campeche-Tenabo</option>
+                            <option>Campeche-Palizada</option>   
+                            <!--Chiapas y municipios-->                 
+                            <option>Chiapas-Acacoyagua</option>
+                            <option>Chiapas-Acala</option>
+                            <option>Chiapas-Acapetahua</option>
+                            <option>Chiapas-Altamirano</option>
+                            <option>Chiapas-Amatán</option>
+                            <option>Chiapas-Amatenango de la Frontera</option>
+                            <option>Chiapas-Amatenango del Valle</option>
+                            <option>Chiapas-Ángel Albino Corzo</option>
+                            <option>Chiapas-Arriaga</option>
+                            <option>Chiapas-Bejucal de Ocampo</option>
+                            <option>Chiapas-Bella Vista</option>
+                            <option>Chiapas-Berriozábal</option>
+                            <option>Chiapas-Bochil</option>
+                            <option>Chiapas-El Bosque</option>
+                            <option>Chiapas-Cacahoatán</option>
+                            <option>Chiapas-Catazajá</option>
+                            <option>Chiapas-Cintalapa</option>
+                            <option>Chiapas-Coapilla</option>
+                            <option>Chiapas-Comitán de Domínguez</option>
+                            <option>Chiapas-La Concordia</option>
+                            <option>Chiapas-Copainalá</option>
+                            <option>Chiapas-Chalchihuitán</option>
+                            <option>Chiapas-Chamula</option>
+                            <option>Chiapas-Chanal</option>
+                            <option>Chiapas-Chapultenango</option>
+                            <option>Chiapas-Chenalhó</option>
+                            <option>Chiapas-Chiapa de Corzo</option>
+                            <option>Chiapas-Chiapilla</option>
+                            <option>Chiapas-Chicoasén</option>
+                            <option>Chiapas-Chicomuselo</option>
+                            <option>Chiapas-Chilón</option>
+                            <option>Chiapas-Escuintla</option>
+                            <option>Chiapas-Francisco León</option>
+                            <option>Chiapas-Frontera Comalapa</option>
+                            <option>Chiapas-Frontera Hidalgo</option>
+                            <option>Chiapas-La Grandeza</option>
+                            <option>Chiapas-Huehuetán</option>
+                            <option>Chiapas-Huixtán</option>
+                            <option>Chiapas-Huitiupán</option>
+                            <option>Chiapas-Huixtla</option>
+                            <option>Chiapas-La Independencia</option>
+                            <option>Chiapas-Ixhuatán</option>
+                            <option>Chiapas-Ixtacomitán</option>
+                            <option>Chiapas-Ixtapa</option>
+                            <option>Chiapas-Ixtapangajoya</option>
+                            <option>Chiapas-Jiquipilas</option>
+                            <option>Chiapas-Jitotol</option>
+                            <option>Chiapas-Juárez</option>
+                            <option>Chiapas-Larráinzar</option>
+                            <option>Chiapas-La Libertad</option>
+                            <option>Chiapas-Mapastepec</option>
+                            <option>Chiapas-Las Margaritas</option>
+                            <option>Chiapas-Mazapa de Madero</option>
+                            <option>Chiapas-Mazatán</option>
+                            <option>Chiapas-Metapa</option>
+                            <option>Chiapas-Mitontic</option>
+                            <option>Chiapas-Motozintla</option>
+                            <option>Chiapas-Nicolás Ruíz</option>
+                            <option>Chiapas-Ocosingo</option>
+                            <option>Chiapas-Ocotepec</option>
+                            <option>Chiapas-Ocozocoautla de Espinosa</option>
+                            <option>Chiapas-Ostuacán</option>
+                            <option>Chiapas-Osumacinta</option>
+                            <option>Chiapas-Oxchuc</option>
+                            <option>Chiapas-Palenque</option>
+                            <option>Chiapas-Pantelhó</option>
+                            <option>Chiapas-Pantepec</option>
+                            <option>Chiapas-Pichucalco</option>
+                            <option>Chiapas-Pijijiapan</option>
+                            <option>Chiapas-El Porvenir</option>
+                            <option>Chiapas-Villa Comaltitlán</option>
+                            <option>Chiapas-Pueblo Nuevo Solistahuacán</option>
+                            <option>Chiapas-Rayón</option>
+                            <option>Chiapas-Reforma</option>
+                            <option>Chiapas-Las Rosas</option>
+                            <option>Chiapas-Sabanilla</option>
+                            <option>Chiapas-Salto de Agua</option>
+                            <option>Chiapas-San Cristóbal de las Casas</option>
+                            <option>Chiapas-San Fernando</option>
+                            <option>Chiapas-Siltepec</option>
+                            <option>Chiapas-Simojovel</option>
+                            <option>Chiapas-Sitalá</option>
+                            <option>Chiapas-Socoltenango</option>
+                            <option>Chiapas-Solosuchiapa</option>
+                            <option>Chiapas-Soyaló</option>
+                            <option>Chiapas-Suchiapa</option>
+                            <option>Chiapas-Suchiate</option>
+                            <option>Chiapas-Sunuapa</option>
+                            <option>Chiapas-Tapachula</option>
+                            <option>Chiapas-Tapalapa</option>
+                            <option>Chiapas-Tapilula</option>
+                            <option>Chiapas-Tecpatán</option>
+                            <option>Chiapas-Tenejapa</option>
+                            <option>Chiapas-Teopisca</option>
+                            <option>Chiapas-Tila</option>
+                            <option>Chiapas-Tonalá</option>
+                            <option>Chiapas-La Trinitaria</option>
+                            <option>Chiapas-Tumbalá</option>
+                            <option>Chiapas-Tuxtla Gutiérrez</option>
+                            <option>Chiapas-Tuxtla Chico</option>
+                            <option>Chiapas-Tuzantán</option>
+                            <option>Chiapas-Tzimol</option>
+                            <option>Chiapas-Unión Juárez</option>
+                            <option>Chiapas-Venustiano Carranza</option>
+                            <option>Chiapas-Villa Corzo</option>
+                            <option>Chiapas-Villaflores</option>
+                            <option>Chiapas-Yajalón</option>
+                            <option>Chiapas-San Lucas</option>
+                            <option>Chiapas-Zinacantán</option>
+                            <option>Chiapas-San Juan Cancuc</option>
+                            <option>Chiapas-Aldama</option>
+                            <option>Chiapas-Benemérito de las Américas</option>
+                            <option>Chiapas-Maravilla Tenejapa</option>
+                            <option>Chiapas-Marqués de Comillas</option>
+                            <option>Chiapas-Montecristo de Guerrero</option>
+                            <option>Chiapas-San Andrés Duraznal</option>
+                            <option>Chiapas-Santiago el Pinar</option>
+                            <option>Chiapas-Capitán Luis Ángel Vidal</option>
+                            <option>Chiapas-Rincón Chamula San Pedro</option>
+                            <option>Chiapas-El Parral</option>
+                            <option>Chiapas-Emiliano Zapata</option>
+                            <option>Chiapas-Mezcalapa</option>
+                            <option>Chiapas-Honduras de la Sierra</option>
+                            <!--Chihuahua y municipios-->
+                            <option>Chihuahua-Ahumada</option>
+                            <option>Chihuahua-Aldama</option>
+                            <option>Chihuahua-Allende</option>
+                            <option>Chihuahua-Aquiles Serdán</option>
+                            <option>Chihuahua-Ascensión</option>
+                            <option>Chihuahua-Bachíniva</option>
+                            <option>Chihuahua-Balleza</option>
+                            <option>Chihuahua-Batopilas de Manuel Gómez Morín</option>
+                            <option>Chihuahua-Bocoyna</option>
+                            <option>Chihuahua-Buenaventura</option>
+                            <option>Chihuahua-Camargo</option>
+                            <option>Chihuahua-Carichí</option>
+                            <option>Chihuahua-Casas Grandes</option>
+                            <option>Chihuahua-Coronado</option>
+                            <option>Chihuahua-Coyame del Sotol</option>
+                            <option>Chihuahua-La Cruz</option>
+                            <option>Chihuahua-Cuauhtémoc	</option>
+                            <option>Chihuahua-Cusihuiriachi</option>
+                            <option>Chihuahua-Chihuahua</option>
+                            <option>Chihuahua-Chínipas</option>
+                            <option>Chihuahua-Delicias</option>
+                            <option>Chihuahua-Dr. Belisario Domínguez</option>
+                            <option>Chihuahua-Galeana</option>
+                            <option>Chihuahua-Santa Isabel</option>
+                            <option>Chihuahua-Gómez Farías</option>
+                            <option>Chihuahua-Gran Morelos</option>
+                            <option>Chihuahua-Guachochi</option>
+                            <option>Chihuahua-Guadalupe</option>
+                            <option>Chihuahua-Guadalupe y Calvo</option>
+                            <option>Chihuahua-Guazapares</option>
+                            <option>Chihuahua-Guerrero</option>
+                            <option>Chihuahua-Hidalgo del Parral</option>
+                            <option>Chihuahua-Huejotitán</option>
+                            <option>Chihuahua-Ignacio Zaragoza</option>
+                            <option>Chihuahua-Janos</option>
+                            <option>Chihuahua-Jiménez</option>
+                            <option>Chihuahua-Juárez</option>
+                            <option>Chihuahua-Julimes</option>
+                            <option>Chihuahua-López</option>
+                            <option>Chihuahua-Madera</option>
+                            <option>Chihuahua-Maguarichi</option>
+                            <option>Chihuahua-Manuel Benavides</option>
+                            <option>Chihuahua-Matachí</option>
+                            <option>Chihuahua-Matamoros</option>
+                            <option>Chihuahua-Meoqui</option>
+                            <option>Chihuahua-Morelos</option>
+                            <option>Chihuahua-Moris</option>
+                            <option>Chihuahua-Namiquipa</option>
+                            <option>Chihuahua-Nonoava</option>
+                            <option>Chihuahua-Nuevo Casas Grandes</option>
+                            <option>Chihuahua-Ocampo</option>
+                            <option>Chihuahua-Ojinaga</option>
+                            <option>Chihuahua-Ojinaga</option>
+                            <option>Chihuahua-Riva Palacio</option>
+                            <option>Chihuahua-Rosales</option>
+                            <option>Chihuahua-Rosario</option>
+                            <option>Chihuahua-San Francisco de Borja</option>
+                            <option>Chihuahua-San Francisco de Conchos</option>
+                            <option>Chihuahua-San Francisco del Oro</option>
+                            <option>Chihuahua-Santa Bárbara</option>
+                            <option>Chihuahua-Satevó</option>
+                            <option>Chihuahua-Saucillo</option>
+                            <option>Chihuahua-Temósachic</option>
+                            <option>Chihuahua-El Tule</option>
+                            <option>Chihuahua-Urique</option>
+                            <option>Chihuahua-Uruachi</option>
+                            <option>Chihuahua-Valle de Zaragoza</option>
+                            <!--Ciudad de México y alcaldías-->
+                            <option>Ciudad de México-Álvaro Obregón</option>
+                            <option>Ciudad de México-Azcapotzalco</option>
+                            <option>Ciudad de México-Benito Juárez</option>
+                            <option>Ciudad de México-Coyoacán</option>
+                            <option>Ciudad de México-Cuajimalpa</option>
+                            <option>Ciudad de México-Cuauhtémoc</option>
+                            <option>Ciudad de México-Gustavo A. Madero</option>
+                            <option>Ciudad de México-Iztacalco</option>
+                            <option>Ciudad de México-Iztapalapa</option>
+                            <option>Ciudad de México-Magdalena Contreras</option>
+                            <option>Ciudad de México-Miguel Hidalgo</option>
+                            <option>Ciudad de México-Milpa Alta</option>
+                            <option>Ciudad de México-Tlalpan</option>
+                            <option>Ciudad de México-Tláhuac</option>
+                            <option>Ciudad de México-Venustiano Carranza</option>
+                            <option>Ciudad de México-Xochimilco</option>  
+                            <!--Coahuila y municipios-->
+                            <option>Coahuila-Abasolo</option>
+                            <option>Coahuila-Acuña</option>
+                            <option>Coahuila-Allende</option>
+                            <option>Coahuila-Arteaga</option>
+                            <option>Coahuila-Candela</option>
+                            <option>Coahuila-Castaños</option>
+                            <option>Coahuila-Cuatro Ciénegas</option>
+                            <option>Coahuila-Escobedo</option>
+                            <option>Coahuila-Francisco I. Madero</option>
+                            <option>Coahuila-Frontera</option>
+                            <option>Coahuila-General Cepeda</option>
+                            <option>Coahuila-Guerrero</option>
+                            <option>Coahuila-Hidalgo</option>
+                            <option>Coahuila-Jiménez</option>
+                            <option>Coahuila-Juárez</option>
+                            <option>Coahuila-Lamadrid</option>
+                            <option>Coahuila-Matamoros</option>
+                            <option>Coahuila-Monclova</option>
+                            <option>Coahuila-Morelos</option>
+                            <option>Coahuila-Múzquiz</option>
+                            <option>Coahuila-Nadadores</option>
+                            <option>Coahuila-Nava</option>
+                            <option>Coahuila-Ocampo</option>
+                            <option>Coahuila-Parras</option>
+                            <option>Coahuila-Piedras Negras</option>
+                            <option>Coahuila-Progreso</option>
+                            <option>Coahuila-Ramos Arizpe</option>
+                            <option>Coahuila-Sabinas</option>
+                            <option>Coahuila-Sacramento</option>
+                            <option>Coahuila-Saltillo</option>
+                            <option>Coahuila-San Buenaventura</option>
+                            <option>Coahuila-San Juan de Sabinas</option>
+                            <option>Coahuila-San Pedro</option>
+                            <option>Coahuila-Sierra Mojada</option>
+                            <option>Coahuila-Torreón</option>
+                            <option>Coahuila-Viesca</option>
+                            <option>Coahuila-Villa Unión</option>
+                            <option>Coahuila-Zaragoza</option>
+                            <!--Colima y municipios-->
+                            <option>Colima-Armería</option>
+                            <option>Colima-Colima</option>
+                            <option>Colima-Comala</option>
+                            <option>Colima-Coquimatlán</option>
+                            <option>Colima-Cuauhtémoc</option>
+                            <option>Colima-Ixtlahuacán</option>
+                            <option>Colima-Manzanillo</option>
+                            <option>Colima-Minatitlán</option>
+                            <option>Colima-Tecomán</option>
+                            <option>Colima-Villa de Álvarez</option>
+                            <!--Durango y municipios-->
+                            <option>Durango-Canatlán</option>
+                            <option>Durango-Canelas</option>
+                            <option>Durango-Coneto de Comonfort</option>
+                            <option>Durango-Cuencamé</option>
+                            <option>Durango-Durango</option>
+                            <option>Durango-General Simón Bolívar</option>
+                            <option>Durango-Gómez Palacio</option>
+                            <option>Durango-Guadalupe Victoria</option>
+                            <option>Durango-Guanaceví</option>
+                            <option>Durango-Hidalgo</option>
+                            <option>Durango-Indé</option>
+                            <option>Durango-Lerdo</option>
+                            <option>Durango-Mapimí</option>
+                            <option>Durango-Mezquital</option>
+                            <option>Durango-Nazas</option>
+                            <option>Durango-Nombre de Dios</option>
+                            <option>Durango-Nuevo Ideal</option>
+                            <option>Durango-Ocampo</option>
+                            <option>Durango-El Oro</option>
+                            <option>Durango-Otáez</option>
+                            <option>Durango-Panuco de Coronado</option>
+                            <option>Durango-Peñón Blanco</option>
+                            <option>Durango-Poanas</option>
+                            <option>Durango-Pueblo Nuevo</option>
+                            <option>Durango-Rodeo</option>
+                            <option>Durango-San Bernardo</option>
+                            <option>Durango-San Dimas</option>
+                            <option>Durango-San Juan de Guadalupe</option>
+                            <option>Durango-San Juan del Río</option>
+                            <option>Durango-San Luis del Cordero</option>
+                            <option>Durango-San Pedro del Gallo</option>
+                            <option>Durango-Santa Clara</option>
+                            <option>Durango-Santiago Papasquiaro</option>
+                            <option>Durango-Súchil</option>
+                            <option>Durango-Tamazula</option>
+                            <option>Durango-Tepehuanes</option>
+                            <option>Durango-Tlahualilo</option>
+                            <option>Durango-Topia</option>
+                            <option>Durango-Vicente Guerrero</option>
+                            <!--Estado de México y municipios-->
+                            <option>Estado de México</option>
+                            <option>Guanajuato</option>
+                            <option>Guerrero</option>
+                            <option>Hidalgo</option>
+                            <option>Jalisco</option>
+                            <option>Michoacán</option>
+                            <option>Morelos</option>
+                            <option>Nayarit</option>
+                            <option>Nuevo Leon</option>
+                            <option>Oaxaca</option>
+                            <option>Puebla</option>
+                            <option>Qurétaro</option>
+                            <option>Quintana Roo</option>
+                            <option>San Luis Potosí</option>
+                            <option>Sinaloa</option>
+                            <option>Sonora</option>
+                            <option>Tabasco</option>
+                            <option>Tamaulipas</option>
+                            <option>Tlaxcala</option>
+                            <option>Veracruz</option>
+                            <option>Yucatán</option>
+                            <option>Zacatecas</option>
+
+
+
+                            
+                        </select>
+                    <div class="sesion">
+                        <input type="submit" value="Crear cuenta" class="Boton">
+                    </div>
+                    <div class="yacuenta">
+                        <label>¿Ya tiene una cuenta?</label>
+                        <a href="pagina_de_login.html"  class="insesion">Iniciar sesión</a>
+                    </div>
+                </form>
+            </div>
+        <div id="cont_derecho">
+
+    </div>
+</body>
+</html>
