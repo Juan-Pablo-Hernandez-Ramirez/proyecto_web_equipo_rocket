@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;/*crear caja*/
+    }
+    
+    *:focus {
+        outline: none;
+    }
+    body {
+    font-family: Arial;/*fuente*/
+    background-color: #f1ebf3d2;
+    padding: 50px;/**/
+    }
+    /*importar clase*/
+    .login {
+    margin: 20px auto;/*margen*/
+    width: 500px;/*ancho*/
+    }
+    /*importar clase*/
+    .login-screen {
+        position: absolute;/*posicion*/
+        top: 50%;/*porcentaje hacia arriba*/
+        left: 50%;/*porcentaje hacia izquierda*/
+        width: 400px;/*tamaño de ancho*/
+        padding: 75px;/*relleno*/
+        transform: translate(-50%, -50%);/*eje*/
+        background: rgba(192, 192, 192, 0.473);/*fondo*/
+        box-sizing: border-box;/*tamaño de caja*/
+        box-shadow: 0 15px 25px rgba(231, 37, 231, 0.637);/*sombra de texto*/
+        border-radius: 15px;/*radio del borde*/
+    }
+    /*importar clase*/
+    .app-title {
+    text-align: center;/*alineacion del texto*/
+    color: #777;
+    }
+    /*importar clase*/
+    .login-form {
+    text-align: center;/*alineacion del texto*/
+    }
+    /*importar clase*/
+    .control-group {
+    margin-bottom: 10px;
+    }
+    /*importar clase*/
+    input {
+    text-align: center;/*alineacion de texto*/
+    background-color: #ECF0F1;/*color de fondo*/
+    border: 2px solid transparent;/*borde*/
+    border-radius: 3px;/*radio del borde*/
+    font-size: 16px;/*tamaño de letra*/
+    font-weight: 200;
+    padding: 20px 0;/*relleno*/
+    width: 250px;/*ancho*/
+    transition: border .5s;
+    }
+    /*importar clase*/
+    input:focus {
+    border: 2px solid #000000;
+    box-shadow: none;
+    }
+    /*importar clase*/
+    .btn {
+      border: 2px solid transparent;/*borde*/
+      background: #5f89a5;/*color de fondo*/
+      color: #ffffff;
+      font-size: 16px;/*tamaño de fuente*/
+      line-height: 25px;/*relleno*/
+      padding: 10px 0;/**/
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;/*radio del borde*/
+      box-shadow: none;
+      transition: 0.25s;/*transicion de .25s*/
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+    }
+    /*importar clase*/
+    .btn:hover {
+      background-color: #2980B9;/*color de fondo*/
+    }
+    /*importar clase*/
+    .login-link {
+      font-size: 12px;/*tamaño de fuente*/
+      color: #444;
+      display: block;
+      margin-top: 12px;/*margen*/
+    }

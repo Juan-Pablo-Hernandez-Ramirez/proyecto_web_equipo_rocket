@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;/*crear caja*/
+    }
+    
+    *:focus {
+        outline: none;
+    }
+body {
+    font-family: Arial;/*fuente*/
+    background-color: #f1ebf3d2;/*fondo*/
+    padding: 50px;/*relleno*/
+}
+/*importar clase*/
+.formulario {
+    position: absolute;/*posicion*/
+    top: 50%;/*porcentaje hacia arriba*/
+    left: 50%;/*porcentaje hacia izquierda*/
+    width: 400px;/*tamaño de ancho*/
+    padding: 75px;/*relleno*/
+    transform: translate(-50%, -50%);/*eje*/
+    background: rgba(192, 192, 192, 0.473);/*fondo*/
+    box-sizing: border-box;/*tamaño de caja*/
+    box-shadow: 0 15px 25px rgba(231, 37, 231, 0.637);/*sombra de texto*/
+    border-radius: 15px;/*radio del borde*/
+}
+    
+h1{
+    margin: 0 0 0px;/*margen*/
+    padding: 0;
+    color: #777;
+    text-shadow: #0b6ad6;/*sombra de texto*/
+    text-align: center;/*alineacion de texto*/
+}
+/*importar clase*/
+.contraseña{
+    margin: 0 0 15px;/*margen*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);/*color de texto*/
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*alineacion*/
+}
+/*importar clase*/
+.correo{
+    margin: 0 0 15px;/*margen*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*alineacion*/
+}
+/*importar clase*/
+.telefono{
+    margin: 0 0 15px;/*margen*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*alineacion*/
+}
+/*importar clase*/
+.pais{
+    margin: 0 0 15px;/*margen*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*alineacion*/
+}
+/*imporar clase*/
+.estado{
+    margin: 0 0 15px;/*alineacion*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*margen*/
+}
+/*importar clase*/
+.Apaterno{
+    margin: 0 0 15px;/*margen*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*alineacion*/
+}
+/*importar clase*/
+.Amaterno{
+    margin: 0 0 15px;/*margen*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*alineacion*/
+}
+/*importar clase*/
+.Nombre{
+    margin: 0 0 15px;/*margen*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*alineacion*/
+}
+/*importar clase*/
+.Nacimiento{
+    margin: 0 0 15px;/*margen*/
+    padding: 0;
+    color: rgba(32, 32, 32, 0.699);
+    text-shadow: #0b6ad6;/*sombra*/
+    text-align: left;/*alineacion*/
+}
+/*importar clase*/
+.boton {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }

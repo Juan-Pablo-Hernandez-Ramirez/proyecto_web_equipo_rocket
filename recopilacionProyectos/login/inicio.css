@@ -1,0 +1,110 @@
+/*importar clase*/
+.container {
+    max-width: 1200px;/*ancho*/
+    margin: 0 auto;/*margen*/
+    padding: 1.5em;/*relleno*/
+  }
+nav{
+    display: flex;/*display: controla donde va un elemento del html*/
+    align-items: center;
+    justify-content: space-between;/*justificado*/
+    background: #eaebf093;/*fondo*/
+    padding-top: 20px;/*relleno top*/
+    padding-left: 0%;/*relleno left*/
+    padding-right: 5%;/*relleno right*/
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(10, 1, 19);
+    font-family: arial;/*fuenta*/
+    text-align: center;/*alineacion*/
+    text-shadow: 10px 0px 7px #79cee4;/*sombra*/
+}
+
+h2{
+    color: rgb(10, 1, 19);
+    font-family: arial;/*fuente*/
+    text-shadow: 10px 0px 7px #c3b2da;/*sombra*/
+}
+
+ul li{
+    display: inline-block;/*display: controla donde va un elemento del html*/
+    font-family: arial;/*fuente*/
+    padding: 0px 20px;/*relleno*/
+    text-shadow: 10px 0px 7px #79cee4;/*sombra*/
+}
+
+a{
+    color: #000000;/*color del a*/
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;/*color del hover*/
+}
+/*importar clase*/
+.menu {
+    font-family: "Inter", sans-serif;/*fuente*/
+    font-size: 14px;/*tamaño de la fuente*/
+  }
+/*importar clase*/
+.menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;/*relleno*/
+    border-bottom: 2px solid #ccc;/*borde*/
+  }
+/*importar clase*/
+.menu-group {
+    display: grid;
+    grid-template-columns: 1fr;/*columnas de cuadricula*/
+    gap: 1.5em;
+    padding: 1.5em 0;/*relleno*/
+  }
+/*importar clase*/
+.menu-item {
+    display: flex;
+  }
+/*importar clase*/  
+.menu-item-image {
+    width: 80px;/*ancho*/
+    height: 80px;/*alto*/
+    flex-shrink: 0;/*elemento de contraccion flexible*/
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+/*importar clase*/ 
+.menu-item-text {
+    flex-grow: 1;/*factor de crecimiento flexible*/
+  }
+/*importar clase*/  
+.menu-item-heading {
+    display: flex;
+    justify-content: space-between;/*justificado*/
+    margin: 0;
+  }
+/*importar clase*/ 
+.menu-item-name {
+    margin-right: 1.5em;/*margen*/
+  }
+/*imporatr clase*/
+.menu-item-description {
+    line-height: 1.6;/*tamaño de linea*/
+  }
+/*media es un query*/ 
+@media screen and (min-width: 992px) {
+/*importar clase*/
+.menu {
+      font-size: 16px;
+    }
+/*importar clase*/
+.menu-group {
+      grid-template-columns: repeat(2, 1fr);/*columnas de cuadricula*/
+    }
+ /*importar clase*/ 
+.menu-item-image {
+      width: 125px;/*ancho*/
+      height: 125px;/*alto*/
+    }
+  }
+  

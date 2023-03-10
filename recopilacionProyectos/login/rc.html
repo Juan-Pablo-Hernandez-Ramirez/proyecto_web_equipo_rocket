@@ -1,0 +1,62 @@
+<!--abrir html-->
+<!DOCTYPE html>
+<html lang="en">
+<!--abrir head-->
+<head>
+    <meta charset="UTF-8">
+    <!--titulo de la pagina-->
+    <title>Nueva contraseña</title>
+    <!--conexion con css-->
+    <link href="rc.css"rel="stylesheet"type="text/css">
+</head>
+<!--abrir body-->
+<body>
+    <div class="formulario">
+        <h1>
+            Nueva contraseña
+        </h1>
+        <!--metodo-->
+        <form method="post">
+            <!--clase telefono-->
+            <div class="telefono">
+                <center><label>Numero telefonico</label></center>
+                <center><input type="tel" value="" required class="inptel"></center>
+            </div>
+            <!--clase correo-->
+            <div class="correo">
+                <center><label>Correo electronico</label></center>
+                <center><input type="email"  value="" required class="inpcorr"></center>
+            </div>
+
+            <!--clase correp-->
+            <div class="correo">
+                <!--mostrar texto-->
+                <center><label>Confirma tu correo electronico</label> </center>
+				<center><input type="email" class="login-field" value="" id="login-pass">
+				<label class="login-field-icon fui-lock" for="login-pass"></label></center>
+            </div>
+
+            <!--clase contraseña-->
+            <div class="contraseña">
+                <!--mostrar texto-->
+                <center><label>Crea una contraseña</label></center>
+                <center><input type="password"  
+                value="" size="20" maxlength="20" minlength="20" required class="inpcont"></center><!--maximo de 20 caracteres-->
+            </div>
+
+            <!--clase confirmar contraseña-->
+            <div class="contraseña">
+                <!--mostar texto-->
+                <center><label>Confirma tu contraseña</label></center>
+                <center><input type="password" value="" required class="conficont"></center>
+            </div>
+
+            <center><a href="">
+                <!--redireccionar al menu-->
+                <a class="boton" href="C:/Users/alond/Documents/login/inicio.html">Ingresar</a>
+            </a></center>
+        </form>
+    </div>
+</body>
+<!--cerrar html-->
+</html>

@@ -1,0 +1,113 @@
+<!--crear archivo html-->
+<!DOCTYPE html>
+<html lang="en">
+<!--abrir head-->
+<head>
+    <meta charset="UTF-8">
+    <!--titulo de la pagina-->
+    <title>REGISTRO</title>
+    <!--conexion con css-->
+    <link href="registro.css"rel="stylesheet"type="text/css">
+</head>
+<!--abrir body-->
+<body>
+    <!--crear formulario-->
+    <div class="formulario">
+        <h1>
+            Registrarse
+        </h1>
+        <!--metodo-->
+        <form method="post">
+            <!--craer clase para nombres-->
+            <div class="Nombre">
+                <label>Nombre(s)</label>
+                <br>
+                <input type="text" value="" required class="inpnom"></br>
+            </div>
+            <!--crear clase para ap paterno-->
+            <div class="Apaterno">
+                <label>Apellido paterno</label>
+                <br><input type="text" value="" required class="inpapat"></br>
+            </div>
+            <!--clase para ap materno-->
+            <div class="Amaterno">
+                <label>Apellido materno</label>
+                <br><input type="text" value="" required class="inpamat"></br>
+            </div>
+            <!--crear clase para fecha de nacimiento-->
+            <div class="Nacimiento">
+                <label>Fecha de nacimiento</label>
+                <!--desplegar un calendario al usuario-->
+                <br><input type="date" value="" min="" max="" required class="inpdate"></br>
+            </div>
+            <!--crear clase para correo electronico-->
+            <div class="correo">
+                <label>Correo electronico</label>
+                <br><input type="email"  value="" required class="inpcorr"></br>
+            </div>
+            <!--crear clase para telefono-->
+            <div class="telefono">
+                <label>Numero telefonico</label>
+                <br><input type="tel" value="" required class="inptel"></br>
+            </div>
+            <!--crear clase para contraseña-->
+            <div class="contraseña">
+                <label>Crea una contraseña</label>
+                <br><input type="password"      
+                value="" size="20" maxlength="20" minlength="20" required class="inpcont"></br> <!--maximo de 20 caracteres-->
+            </div>
+            <!--clase pais-->
+            <div class="pais">
+            <label for="name">Pais:</label>
+        <!--desplegar opcion de pais al usuario-->
+         <p><select>
+            <option>Mexico</option>
+         </select></p>
+        </form></div>
+        <!--desplegar opciones de estados al usuario-->
+         <div class="estado">
+        <label for="name">Estado:</label>
+         </p><select> 
+            <option> Aguascalientes </option>
+            <option> Baja California </option>
+            <option> Baja California Sur </option>
+            <option> Campeche </option>
+            <option> Chiapas </option>
+            <option> Chihuahua </option>
+            <option>  Coahuila </option>
+            <option> Colima  </option>
+            <option> CDMX </option>
+            <option> Durango </option>
+            <option> Estado de Mexico </option>
+            <option> Guanajuato </option>
+            <option> Guerrero </option>
+            <option> Hidalgo </option>
+            <option>  Jalisco  </option>
+            <option>  Michoacán </option>
+            <option>  Morelos </option>
+            <option> Nayarit </option>
+            <option> Nuevo León </option>
+            <option>  Oaxaca  </option>
+            <option>  Puebla </option>
+            <option> Querétaro </option>
+            <option>  Quintana Roo</option>
+            <option>  San Luis Potosí  </option>
+            <option>  Sinaloa </option>
+            <option>   Sonora </option>
+            <option>  Tabasco </option>
+            <option> Tamaulipas </option>
+            <option> Tlaxcala  </option>
+            <option> Veracruz </option>
+            <option>  Yucatán </option>
+            <option> Zacatecas </option>
+        </select></p>
+        </div>
+            <center><a href="">
+                <!--boton para redireccionar al menu-->
+                <a class="boton" href="C:/Users/alond/Documents/login/inicio.html">Ingresar</a>
+        </form>
+
+    
+</body>
+<!--cerrar html-->
+</html>
