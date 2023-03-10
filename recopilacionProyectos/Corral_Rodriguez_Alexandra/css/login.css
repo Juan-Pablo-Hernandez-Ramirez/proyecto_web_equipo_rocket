@@ -1,0 +1,314 @@
+/* HACER DISEÑO EN EL CUERPO DEL HTML*/
+body {
+    font-family: 'Overpass', sans-serif; /* Tipo de letra */
+    font-weight: normal; /* especifica el grueso de la letra */
+    font-size: 100%; /* especifica la dimensión de la letra*/
+    color: #1b262c; /* Color de la letra */
+    display: flex; /*  nos permite maquetar */
+    
+    background-color: #6eb3e0; /* Fondo azul */
+}
+
+/* PARA LA CAJA QUE CONTIENE LA INFORMACIÓN DE LOS FORMULARIOS */
+#contenedor {
+    display: flex; /*  nos permite maquetar */
+    align-items: center; /*  Contenido alineado al centro */
+    justify-content: center;   /*  Justificación al centro */
+    margin: 0; /* Es el espacio entre su contenido y el borde.*/
+    padding: 0; /*espacio y tamaño de la letra */
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%; /*Ancho de la tabla*/
+    height: 100%;  /* ALtura de la tabla*/
+}
+
+/* CONTENIDO AL CENTRO */
+#central {
+    max-width: 320px; /* permite establecer una medida de la anchura */
+    width: 100%;  /*Ancho de la tabla*/
+}
+
+/* TÍTULO */
+.titulo {
+    font-size: 250%; /*Tamaño de la letra*/
+    color:#01010c; /* Es para el color del texto*/
+    text-align: center; /* Sirve para alinear el texto al centro */
+    margin-bottom: 20px;
+}
+
+/* LOGIN */
+#login {
+    width: 100%; /*Ancho de la tabla*/
+    padding: 50px 30px; /*espacio y tamaño de la letra */
+    background-color: #bdbabe; /* Color de fondo */
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15); /* Dar sombreado a la caja  */
+    
+    border-radius: 3px 3px 3px 3px; /* Para el borde */
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+/* LOGIN PARA LOS TEXTOS */
+#login input {
+    font-family: 'Overpass', sans-serif; /* Tipo de letra */
+    font-size: 110%; /*Tamaño de la letra*/
+    color: #1b262c; /* Es para el color del texto*/
+    
+    display: block;  /*  nos permite maquetar */
+    width: 100%; /*Ancho de la tabla*/
+    height: 40px;  /* ALtura de la tabla*/
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px; /*espacio y tamaño de la letra */
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif; /* Tipo de letra */
+    color: #E4E4E4; /* Color de fonfo */
+}
+
+/* BOTONES DEL LOGIN */
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #bbe1fa;
+    
+    margin-top: 10px;
+}
+
+/* BOTONES DE LA PARTE DE ABAJO DEL LOGIN */
+#login button:hover {
+    background-color: #95d3f0;
+    color:#f0ebef;
+}
+
+/* TEXTOS QUE SE ENCUENTRAN ABAJO */
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+/* TEXTOS QUE SE ENCUENTRAN ABAJO */
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #172127;
+    margin-bottom: 3px;
+}
+
+/* TEXTOS QUE SE ENCUENTRAN ABAJO */
+.pie-form a:hover {
+    color: #f8e7f2;
+}
+
+/* TEXTOS QUE SE ENCUENTRAN ABAJO */
+.inferior {
+    margin-top: 10px;
+    font-size: 90%;
+    text-align: center;
+}
+
+/* TEXTOS QUE SE ENCUENTRAN ABAJO */
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: #090e11;
+    margin-bottom: 3px;
+}
+
+/* TEXTOS QUE SE ENCUENTRAN ABAJO */
+.inferior a:hover {
+    color: #746b71;
+}
+
+
+/* DISEÑO PARA EL FORMULARIO DE REGISTRO */
+.FormularioRegistro{
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #bdbabe;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+/* DISEÑO PARA EL FORMULARIO DE REGISTRO */
+.FormularioRegistro input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 100%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+.FormularioRegistro input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+/* DISEÑO PARA BOTONES DEL FORMULARIO DE REGISTRO */
+.FormularioRegistro button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #bbe1fa;
+    
+    margin-top: 10px;
+}
+
+/* DISEÑO PARA BOTONES DEL FORMULARIO DE REGISTRO */
+.FormularioRegistro button:hover {
+    background-color: #95d3f0;
+    color:#f0ebef;
+}
+
+/* DISEÑO PARA EL FORMULARIO DE RECUPERACIÓN */
+.formularioRecuperacion{
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #bdbabe;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+}
+
+/* DISEÑO PARA EL FORMULARIO DE RECUPERACIÓN */
+.formularioRecuperacion input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+/* DISEÑO PARA EL FORMULARIO DE RECUPERACIÓN */
+.formularioRecuperacion input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+/* DISEÑO PARA LOS BOTONES DEL FORMULARIO DE RECUPERACIÓN */
+.formularioRecuperacion button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #bbe1fa;
+    
+    margin-top: 10px;
+}
+
+/* DISEÑO PARA EL FORMULARIO DE RECUPERACIÓN */
+.formularioRecuperacion button:hover {
+    background-color: #95d3f0;
+    color:#f0ebef;
+}
+
+
+/* DISEÑO DE LAS CARTAS DE CONTENIDO DEL MENU*/
+div.menu {
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  img {
+    width: 90%;
+  }
+  div.menu {
+   text-align: center;
+    padding: 10px 20px; 
+  }
+
+  div.Card {
+    border: 2px solid #ccc;
+  }
+  
+  div.Card:hover {
+    border: 1px solid #777;
+  }
+  
+  div.Card img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .menu {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }

@@ -1,0 +1,48 @@
+<!-- Define que el documento esta bajo el estandar de HTML 5 -->
+<!DOCTYPE html>
+<html>
+
+    <!-- ENCABEZADO DEL HTML-->
+    <head>	
+        <meta charset="utf-8">
+    
+    <!--Título de la pestaña de la página-->
+    <title>
+        Recuperación_Contraseña
+    </title>
+
+     <!--Links para que agarre las APIS de Google -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+   
+    <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="css/login.css">
+            <style type="text/css">
+        </style>
+    </head> <!-- Se cierra el encabezado -->
+
+
+    <body background="imagen/fondo.jpg"> <!--Pone una imagen de fondo-->
+        <div id="contenedor"> <!-- Clase para un cuadro para el texto -->
+            <div id="central">
+                <!-- Título de la página-->
+                <div class="titulo">
+                    Recuperación de Contraseña
+                </div>
+
+            <!-- FORMULARIO DE RECUPERACIÓN DE CONTRASEÑA -->
+            <div class="formularioRecuperacion">
+                <input type="text" placeholder="Usuario">
+                <input type="tel" placeholder="Número">
+                <input type="email" placeholder="Correo Electronico">
+
+                <!-- Al dar clik en el boton te llevara a la página de inicio -->
+                <button onclick="location.href='login.html'">
+                    Recuperar
+                </button>
+            </div>
+        </div>
+    </div>
+     <!-- SE CIERRAN LOS DIV -->
+    </body> <!-- Se cierra el body -->
+</html> <!-- Se da por concluido el HTML -->
