@@ -1,0 +1,58 @@
+<!--DOCTYPE significa que sera html 5-->
+<!DOCTYPE html>
+<!--en español-->
+<html lang="en">
+
+<!--encabezado-->
+<head>
+    <!--utf-8 es para que admita caracteres en español como la ñ-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style_Login.css">
+    <link rel="icon" href="./imagenes/ico_login.ico">
+    <!--titulo que se encuentra en las ventanas del navegador-->
+    <title>Inicio de sesión</title>
+</head>
+
+<!--cuerpo del html-->
+<body>
+    <!--llamo a una clase de estilo de css-->
+    <div class="formulario">
+        <!--titulo -->
+        <h1>Inicio de Sesión</h1>
+        <!--creo un formulario-->
+        <form>
+            <!--llamo a una clase de estilo de css-->
+            <div class="login_style">
+                <!--pongo un titulo para pedirle que ponga -->
+                <label for="">Nombre de usuario</label>
+                <!--creo una caja de texto de tipo text-->
+                <input type="text" required>
+            </div>
+            <!--llamo a una clase de estilo de css-->
+            <div class="login_style">
+                <!--pongo un titulo para pedirle que ponga -->
+                <label for="">Contraseña</label>
+                <!--creo una caja de texto de tipo password-->
+                <input type="password" required>
+            </div>
+            <!--llamo a una clase y le pongo si olvido la contraseña-->
+            <div class="con_olvidada">
+                <a href="recupera_contra.html">¿Olvidó su contraseña?</a>
+            </div>
+            <!--creo un boton -->
+            <input type="submit" value="Iniciar">
+            <!--llamo a una clase de estilo de css-->
+            <div class="registrarse">
+                <!--llamo a un link para mandarlo a lo de registrarse-->
+                Registrate <a href="registro.html">  Aqui</a>
+            </div>
+            <!--se cierra form-->
+        </form>
+
+    </div>
+    <!--se cierra el cuerpo-->
+</body>
+<!--se cierra el proyecto-->
+</html>

@@ -1,0 +1,68 @@
+/*body es para fondo (lo general del archivo)*/
+body{
+  margin: 0; /*margenes en 0*/
+  padding: 0; /*padding es un atributo dentro de los bordes definidos*/
+  font-family:Arial, Helvetica, sans-serif; /*tipo de letra*/
+  /*color lo creo difuminando en dos colores */
+  background: linear-gradient(150deg, rgb(4, 104, 255), #99caf3 ); 
+  /*esto para adaptar el color que quede justo*/
+  height: 250vh;
+}
+
+/*va a modificar a todos los h1*/
+h1{
+  text-align: center; /*texto en el centro*/
+  font-family: 'Courier New', Courier, monospace; /*tipo de letra*/
+  font-size: 40px;/*tamaño de la letra*/
+  color: white;/*color de letra*/
+}
+
+/*va a modificar todos los h2*/
+h2{
+  text-align: left; /*su posicion a la izquierda*/
+  color: white; /*color*/
+}
+
+/*creo una clase*/
+.wrap{
+  max-width: 1200px; /*el ancho maximo*/
+  margin: 0 auto; /*ningun margen*/
+  top: 50%;
+}
+
+/*clase*/
+.column-2.menu{
+  display: grid; /*proporciona una cuadrícula de una sola columna*/
+  grid-template-columns: repeat(2,1fr); /*define el nombre de las líneas y las funciones de tamaño de línea de grid columns*/
+}
+
+/*clase*/
+.plato-menu{
+  display: flex; /*elemento flexible*/
+  align-items: center; /*al centro*/
+  border: 1px solid #e5e5e5; /*bordes*/
+  border-radius: 20px; /*tamaño de los bordes*/
+  background-color: white; /*color */
+}
+
+/*clase para las imagenes*/
+.img-plato-menu{
+  display: flex;
+  flex-basis: 25%; /*un flex basico*/
+  justify-content: center; /*va a ir al centro del cuardito*/
+}
+
+/*clase para tamaño de iamgenes*/
+.img-plato-menu img{
+  max-width: 100px; /*ancho maximo*/
+  max-height: 75px; /*altura maxima*/
+}
+
+/*clase para el titulo*/
+.title-plato-menu{
+  border: 1px solid #e5e5e5; /*bordes*/
+  border-bottom: none; /*no border*/
+  flex-basis: 60%; /*se agrega una linea al final del cuardo*/
+  padding: 0 1rem;
+}
+

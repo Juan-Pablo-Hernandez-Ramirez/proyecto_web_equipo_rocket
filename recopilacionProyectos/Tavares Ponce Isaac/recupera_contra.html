@@ -1,0 +1,55 @@
+<!--DOCTYPE significa que sera html 5-->
+<!DOCTYPE html>
+<!--en español-->
+<html lang="en">
+
+<!--encabezado-->
+<head>
+    <!--utf-8 es para que admita caracteres en español como la ñ-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagenes/ico_login.ico">
+    <!--titulo que se encuentra en las ventanas del navegador-->
+    <title>Recupera La contraseña</title>
+    <!--conexion con css-->
+    <link rel="stylesheet" href="./style/style_recupera.css">
+</head>
+
+<body>
+    <!--llamo a una clase de estilo de css-->
+    <div class="formulario">
+        <!--habro un formulario-->
+        <form action="">
+            <!--titulo-->
+            <h1>Recupera tu contraseña</h1>
+            <!--llamo a una clase de estilo de css-->
+            <div class="usu">
+                <!--pongo un titulo para pedirle que ponga -->
+                <label for="">Usuario</label> <br>
+                <!--creo una caja de texto de tipo text-->
+                <input type="text" required>
+            </div>
+
+            <!--llamo a una clase de estilo de css-->
+            <div class="usu">
+                <!--pongo un titulo para pedirle que ponga -->
+                <label for="">Correo electronico</label> <br>
+                <!--creo una caja de texto de tipo text-->
+                <input type="email">
+            </div>
+
+            <!--llamo a una clase de estilo de css-->
+            <div class="usu">
+                <!--pongo un titulo para pedirle que ponga -->
+                <label for="">Telefono</label> <br>
+                <!--creo una caja de texto de tipo text-->
+                <input type="tel" maxlength="10">
+            </div>
+            <!--creo un tipo de botón -->
+            <input type="submit" value="Recuperar">
+        </form>
+    </div>
+</body>
+
+</html>

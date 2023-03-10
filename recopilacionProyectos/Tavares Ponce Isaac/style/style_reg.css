@@ -1,0 +1,113 @@
+/*body es para fondo (lo general del archivo)*/
+body{
+    margin: 0; /*margenes en 0*/
+    padding: 0; /*padding es un atributo dentro de los bordes definidos*/
+    font-family:Arial, Helvetica, sans-serif; /*tipo de letra*/
+    /*color lo creo difuminando en dos colores */
+    background: linear-gradient(150deg,  rgb(4, 104, 255), #99caf3 ); 
+    /*esto para adaptar el color que quede justo*/
+    height: 165vh;
+}
+
+/*creo una clase para el formulario*/
+.formulario{
+    position: absolute; /*posicion*/
+    top: 50%; /*cuanto se va a desplazar */
+    left: 50%; /*desplazara la caja a la derecha*/
+    transform: translate(-50%, -30%);/*posicion de la caja en la pantalla*/
+    width: 400px; /*tamaño */
+    background: white; /*color*/
+    border-radius: 40px; /*que tan redondos quiero los bordes*/
+
+}
+
+/*todo lo que este en la clase formulario etiqueta h1*/
+.formulario h1{
+    text-align: center; /*lo pongo en el centro*/        
+}
+
+/*todo lo que este en la clase formulario etiqueta form*/
+.formulario form{
+    padding: 0 40px; /*estable la area del relleno en los 4 lados*/   
+    box-sizing: border-box; /*establece como se calcula el ancho y alto total de un elemento.*/
+
+}
+
+/*todo dentro de form que sea clase datos*/
+
+form .datos{
+    position: relative; /*posicion*/
+    border-bottom: 2px solid #adadad; /*color de la linea*/
+    margin: 30px 0; /*establece el margen*/
+}
+
+/*todo dentro de la clase datos que sea input*/
+.datos input{
+    width: 100%; /*tamaño ancho*/
+    padding: 0 5px; /*estable la area del relleno en los 4 lados*/ 
+    height: 40px; /*alto*/
+    font-size: 16px; /*tamaño de letra*/
+    border: none; /*ningun borde*/
+    background: none;/*ningun color*/
+    outline: none; /*no outline*/
+}
+
+/*dentro de la clase datos label*/
+.datos label{
+    position:absolute; /*posicion*/
+    top: 35%; /*cuanto se va a desplazar */
+    left: 5px; /*desplazara la caja a la derecha*/
+    color: #000000; /*color*/
+    transform: translateY(-150%); /*posicion*/
+    font-size: 18px;/*tamaño de letra*/
+    pointer-events: none; /*no*/
+}
+
+/*modificacion de boton*/
+input[type="submit"]{
+    width: 100%; /*ancho*/
+    height: 50px; /*altura*/
+    border: 1px solid; /*bordes*/
+    background: #0b70cf; /*color*/
+    border-radius: 25px; /*bordes*/
+    font-size: 18px; /*tamaño de letra*/
+    color: white; /*color de letra*/
+    cursor: pointer;/*esto es para que el cursor cambie cuando pase por el boton*/
+}
+
+/*esto es para los select */
+.style_select{
+	max-width: 220px; /*tamaño maximo*/
+	position: relative; /*su posicion*/
+}
+ 
+/*dentro de la clase select*/
+.style_select select{
+	display: inline-block; /*le pongo un display*/
+	width: 100%; /*ancho*/
+	cursor: pointer;  /*esto es para que el cursor cambie cuando pase por el boton*/
+  	padding: 7px 10px; /*estable la area del relleno en los 4 lados*/
+  	height: 42px; /*alto*/
+  	outline: 0; /*estilo de contorno*/
+  	border: 0; /*establece un estilo de linea*/
+	border-radius: 0; /*redondeo*/
+	background: #f0f0f0; /*color*/
+	font-size: 17px;/*tamaño de letra */
+	color: black; /*color de letra*/
+	font-family:'Quicksand', sans-serif; /*tipo de letra*/
+	border:3px solid rgb(190, 190, 190); /*color de los bordes*/
+    border-radius: 10px;/*tamaño de los bordes*/
+    position: relative; /*su posicion*/
+}
+
+/*dentro de la clase style el label*/
+.style_select label{
+    position: absolute; /*su posicion*/
+    top: 50%; /*cuanto se va a desplazar */
+    left: 5px; /*desplazara la caja a la derecha*/
+    color: #000000;/*su color*/
+    transform: translateY(-180%); /*su posicion*/
+    font-size: 18px;/*tamaño de letra*/
+}
+
+ 
