@@ -1,0 +1,85 @@
+/* fondo */
+body{
+    background-color: rgb(255, 221, 192);
+}
+/* recurso para el formulario ; requerimiento en espera*/
+/* .formulario1{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.formulario2{
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 26.5%;
+    margin-top: 3%;
+}
+.fon{
+    border: 2px solid black;
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+} */
+/* le da el tipo de letra,los bordes, el fondo,alinea texto y contenido en el centro, el tamaño de letra y bordes redondeados todo en ese orden*/
+.form{
+    font-family: Tahoma, sans-serif;
+    border: 10px groove gray;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 27%;
+    margin-right: 27%;
+    font-size: 120%;
+    border-radius: 25px;
+}
+/* da tamaño de un lado, el tamaño de letra,bordes redondeados alinea texto y le da color al borde todo en ese orden */
+input{
+    width: 50%;
+    font-size: 110%;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+/* tamaño,color a los botones */
+button{
+    font-size: 120%;
+    border: green 4px inset;
+    background-color: darkgreen;
+
+}
+/* alinea texto */
+pre{
+    text-align: center;
+}
+/* da tamaño de un lado */
+select{
+    width: 70%;
+}
+/* le da el tipo de letra,los bordes, el fondo,alinea texto y contenido en el centro, el tamaño de letra y bordes redondeados todo en ese orden*/
+.producto{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px groove gray;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 110%;
+    border-radius: 25px;
+
+}
+/* color y tamaños */
+.comida{
+    border: 2px solid rgb(189, 186, 186);
+    background-color: white;
+    width: 230px;
+    height: 340px;
+}
+/* margenes */
+.carrito{
+    margin-left: 80%;
+}
