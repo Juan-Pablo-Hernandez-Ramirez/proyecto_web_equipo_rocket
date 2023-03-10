@@ -1,0 +1,54 @@
+body {
+    background-image: url('https://fondosmil.com/fondo/54336.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .login-box {
+    width: 480px;
+    position: absolute; /* posición absoluta */
+    top: 45%; /* posición a la mitad de la página */
+    left: 50%; /* posición a la mitad de la página */
+    transform: translate(-50%, -45%); /* centrado en la página */
+    color: #fff; /* color de texto */
+  }
+  
+  .login-box h2 {
+    text-align: center; /* centrar el título */
+    text-transform: uppercase; /* transformar el texto en mayúsculas */
+    font-size: 38px; /* tamaño de letra */
+  }
+  
+  .login-box label {
+    font-weight: bold; /* negrita */
+    font-size: 18px; /* tamaño de letra */
+  }
+  
+  .login-box input {
+    width: 100%; /* ancho al 100% */
+    margin-bottom: 20px; /* espacio entre elementos */
+    border: none; /* sin borde */
+    border-bottom: 1px solid #fff; /* borde inferior de 1px con color blanco */
+    background: transparent; /* fondo transparente */
+    outline: none; /* sin contorno */
+    height: 40px; /* altura de 40px */
+    color: #fff; /* color de texto */
+    font-size: 16px; /* tamaño de letra */
+  }
+  
+  .login-box input[type="button"] {
+    border: none; /* sin borde */
+    outline: none; /* sin contorno */
+    height: 40px; /* altura de 40px */
+    background: #1c8adb; /* color de fondo del botón */
+    color: #fff; /* color de texto */
+    font-size: 18px; /* tamaño de letra */
+    border-radius: 20px; /* borde redondeado */
+  }
+  
+  .login-box input[type="button"]:hover {
+    cursor: pointer; /* cambia el cursor al pasar el ratón */
+    background: #39dc79; /* color de fondo al pasar el ratón */
+    color: #000; /* color de texto al pasar el ratón */
+  }
+  
