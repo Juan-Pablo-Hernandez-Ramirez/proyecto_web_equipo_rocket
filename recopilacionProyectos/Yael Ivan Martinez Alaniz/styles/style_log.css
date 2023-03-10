@@ -1,0 +1,28 @@
+body{
+    margin: 100px; /* se genera un margen de 100 pixeles*/
+    padding: 15px; /**/
+    display: flex; /**/
+    flex-direction: column; /**/
+    align-items: center; /*Se alinean los elementos en el centro de la pagina*/
+    text-align: center; /* se alinea el texto al centro de la pagina*/
+    color: blanchedalmond; /*Se le da color a la letra*/ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Se define la fuente de la letra*/
+    font-size:25px; /*Define el tamaño de letra*/
+    justify-content: center; /*se justifica el contenido al centro*/
+}
+.Registro{
+    text-align: center; /*se alinea el texto al centro*/
+    font-size: 15px;/*define tamaño de letra */
+}
+
+.contraseña{
+    color: blanchedalmond;/*Color de letra a el hipervinculo*/
+    font-size:15px ;/* tamaño de letra*/
+    margin-top:50px;/**/
+    
+}
+.Inicio{
+    font-size: 15px;
+    background-color: brown;
+    color:blanchedalmond;
+}
