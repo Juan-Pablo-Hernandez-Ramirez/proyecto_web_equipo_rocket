@@ -1,0 +1,33 @@
+label {
+    /*label style*/
+    font-size: 10;
+    font-family: "Arial";
+    /*fuente de la letra*/
+
+}
+
+h1,
+p {
+    line-height: 1;
+    font-size: 120%;
+    font-family: "Arial";
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+input:hover {
+    transform: scale(1, 1);
+    background-color: rgb(233, 251, 252);
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 138, 138);
+}
+
+h2,
+h3 {
+    font-size: 90%;
+}
