@@ -1,0 +1,142 @@
+.section-class{
+    background: rgba(212, 212, 212, 0.623);
+    padding: 20px;
+    width: 500px;
+    display:block;
+    border-radius: 10px;
+    margin: auto;
+}
+#main-header {
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 70px;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+    font-size:20px ;
+}
+#main-header a {
+    color: white;
+}
+
+nav ul li{
+    font-size:20px ;
+    font-family: "Open Sans", sans-serif;
+}
+/*
+ * Logo
+ */
+#logo-header {
+    float: left;
+    padding: 20px 0 0 750px;
+    text-decoration: none;
+}
+#logo-header:hover {
+    color: #8d9292;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+/*
+ * Navegación boton pa arriba
+ */
+/*posicion del boton*/
+nav {
+	float: right;
+}
+/*margen a la derecha*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 40px;
+}
+
+/*tamaño del texto*/
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+/*tamaño boton*/
+nav ul li a {
+    display: block;
+    padding: 3 5px;
+    text-decoration: none;
+}
+
+/*cambio de color cuando el mouse esta encima*/
+nav ul li a:hover {
+    background: #abafb1;
+}
+
+/*fin de navegacion*/
+
+.boton {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+
+
+/*menu*/
+html{
+    font-family: system-ui;
+}
+
+.wrap{
+max-width: 1200px;
+margin: 0 auto;
+}
+
+
+.column-3{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+column-gap: 1rem;
+row-gap: 1rem;
+}
+
+.menu-restaurante{
+color: rgb(0, 0, 0);  
+text-align: center;
+background-repeat: no-repeat;
+border-radius: 6px;
+display: flex;
+flex-flow: column;
+}
+
+hr{
+background: #FFC300;
+height: 2.5px;
+width: 30px;
+border: none;
+}
+
+.precio-menu{
+font-weight: bold;
+}
+
+.precio-menu span{
+font-size: 2rem;
+color: #FFC300;
+}
+
+/*Imagenes del mismo tamaño*/
+.img-normalizada{
+	width: 110px;
+	height: 74px;
+	object-fit: cover;
+}
