@@ -1,0 +1,58 @@
+
+/*Centrar los datos del texto*/
+center{
+   font-size: 12;
+   font-style: initial;
+}
+
+/*La forma de la cja donde se contienen los datos*/
+form {
+  background-color: rgb(8, 17, 131);
+  background-position: center;
+  border-style: outset;
+   border-color: rgb(126, 235, 24);
+   border-width: medium;
+  width: 500px;
+  border-radius: 10px;
+  padding: 20px 40px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  height: min-content;
+  width: min-content;
+  box-shadow: 0 10px 25px rgba(224, 84, 9, 0.623);
+}
+
+/*Para decorar el boton*/
+title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+/*Para darle color al cuerpo*/
+body {
+     background: whitesmoke;
+}
+
+/*Color del borde del texto y color del texto*/
+P{
+  color: rgb(20, 224, 187);
+  width: 200px;
+  border: 1px solid rgb(193, 244, 12);
+}
+
+
+/*Tipo de tamaño y letra*/
+P{
+  font-style: oblique;
+  font-weight: normal=100;
+
+}
+
+/*Borde del color y tamaño*/
+body{
+   border-style: outset;
+   border-color: lawngreen;
+   border-width: medium;
+}
+
